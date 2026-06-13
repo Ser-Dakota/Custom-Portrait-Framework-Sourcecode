@@ -45,18 +45,18 @@ public class Plugin : BasePlugin
             "EnableDiagnosticLogging",
             false,
             "Logs every unique texture/sprite name to the console and to seen_textures.txt to help " +
-            "discover asset names while developing portrait packs. The portrait swapper and its [SWAP] " +
-            "confirmation log ALWAYS run regardless of this setting. Leave false for normal play.").Value;
+            "discover asset names while developing portrait packs, plus the [SWAP] confirmation lines. " +
+            "The portrait swapper itself ALWAYS runs regardless of this setting. Leave false for normal play.").Value;
 
         Logger.LogInfo($"EnableDiagnosticLogging = {DiagnosticLogging}");
 
         DialogueInsetEnabled = Config.Bind(
             "Dialogue",
             "EnableDialogueTextInset",
-            false,
+            true,
             "When true, widens the dialogue subtitle text's right margin so it wraps earlier and " +
             "clears the portrait zone on the right of the screen. Reapplied on every dialogue line. " +
-            "Independent of the portrait swap. Default off.").Value;
+            "Independent of the portrait swap. Default on.").Value;
 
         DialogueTextRightInset = Config.Bind(
             "Dialogue",

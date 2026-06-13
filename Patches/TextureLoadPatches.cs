@@ -110,13 +110,14 @@ internal static class SpriteCreatePatch
 
         // Catalog the original game name before any swap — dialogue portraits
         // come through here, so this is the core discovery category. Gated:
-        // diagnostics only. The swap and [SWAP] log below always run.
+        // diagnostics only, as is the [SWAP] log below. The swap itself always runs.
         if (Plugin.DiagnosticLogging)
             SeenCatalog.Record(key, "Sprite.Create");
 
         if (TextureCache.TryGetReplacement(key, out var replacement))
         {
-            Plugin.Logger.LogInfo($"[SWAP] {key} -> custom PNG");
+            if (Plugin.DiagnosticLogging)
+                Plugin.Logger.LogInfo($"[SWAP] {key} -> custom PNG");
             texture = replacement;
         }
     }
@@ -152,8 +153,8 @@ internal static class ImageSpriteSetterPatch
         if (value == null) return;
 
         // Census of what the game is trying to assign, logged before any swap.
-        // Gated: diagnostics only. The swap and [SWAP via ImageSprite] log below
-        // always run.
+        // Gated: diagnostics only, as is the [SWAP via ImageSprite] log below.
+        // The swap itself always runs.
         if (Plugin.DiagnosticLogging)
         {
             SeenLog.Note(value.name, "ImageSprite");
@@ -166,7 +167,8 @@ internal static class ImageSpriteSetterPatch
         var replacement = SpriteCache.Get(key);
         if (replacement == null) return;
 
-        Plugin.Logger.LogInfo($"[SWAP via ImageSprite] {key}");
+        if (Plugin.DiagnosticLogging)
+            Plugin.Logger.LogInfo($"[SWAP via ImageSprite] {key}");
         value = replacement;
     }
 
