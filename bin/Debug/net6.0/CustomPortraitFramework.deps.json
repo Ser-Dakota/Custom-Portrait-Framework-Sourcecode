@@ -1,0 +1,612 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomPortraitFramework/0.1.0": {
+        "dependencies": {
+          "BepInEx.Core": "6.0.0-be.755",
+          "BepInEx.Unity.IL2CPP": "6.0.0-be.755",
+          "HarmonyX": "2.13.0"
+        },
+        "runtime": {
+          "CustomPortraitFramework.dll": {}
+        }
+      },
+      "AsmResolver/6.0.0-beta.5": {
+        "runtime": {
+          "lib/net6.0/AsmResolver.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "AsmResolver.DotNet/6.0.0-beta.5": {
+        "dependencies": {
+          "AsmResolver.PE": "6.0.0-beta.5"
+        },
+        "runtime": {
+          "lib/net6.0/AsmResolver.DotNet.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "AsmResolver.PE/6.0.0-beta.5": {
+        "dependencies": {
+          "AsmResolver.PE.File": "6.0.0-beta.5"
+        },
+        "runtime": {
+          "lib/net6.0/AsmResolver.PE.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "AsmResolver.PE.File/6.0.0-beta.5": {
+        "dependencies": {
+          "AsmResolver": "6.0.0-beta.5"
+        },
+        "runtime": {
+          "lib/net6.0/AsmResolver.PE.File.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "AssetRipper.CIL/1.0.0": {
+        "dependencies": {
+          "AsmResolver.DotNet": "6.0.0-beta.5"
+        },
+        "runtime": {
+          "lib/net6.0/AssetRipper.CIL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AssetRipper.Gee.External.Capstone/2.3.1": {
+        "runtime": {
+          "lib/net6.0/Gee.External.Capstone.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libcapstone.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libcapstone.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcapstone.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libcapstone.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libcapstone.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libcapstone.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/capstone.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/capstone.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/capstone.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AssetRipper.Primitives/3.1.3": {
+        "runtime": {
+          "lib/net6.0/AssetRipper.Primitives.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.1.3.0"
+          }
+        }
+      },
+      "BepInEx.Core/6.0.0-be.755": {
+        "dependencies": {
+          "HarmonyX": "2.13.0",
+          "MonoMod.Utils": "25.0.6",
+          "SemanticVersioning": "2.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BepInEx.Core.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "BepInEx.Unity.Common/6.0.0-be.755": {
+        "dependencies": {
+          "AssetRipper.Primitives": "3.1.3",
+          "MonoMod.Utils": "25.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BepInEx.Unity.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "BepInEx.Unity.IL2CPP/6.0.0-be.755": {
+        "dependencies": {
+          "BepInEx.Core": "6.0.0-be.755",
+          "BepInEx.Unity.Common": "6.0.0-be.755",
+          "HarmonyX": "2.13.0",
+          "Iced": "1.21.0",
+          "Il2CppInterop.Generator": "1.5.1-ci.829",
+          "Il2CppInterop.HarmonySupport": "1.5.1-ci.829",
+          "Il2CppInterop.Runtime": "1.5.1-ci.829",
+          "MonoMod.RuntimeDetour": "25.1.2",
+          "Samboy063.Cpp2IL.Core": "2022.1.0-pre-release.13"
+        },
+        "runtime": {
+          "lib/net6.0/BepInEx.Unity.IL2CPP.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Disarm/2022.1.0-master.26": {
+        "runtime": {
+          "lib/net6.0/Disarm.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
+      "HarmonyX/2.13.0": {
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "25.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/0Harmony.dll": {
+            "assemblyVersion": "2.13.0.0",
+            "fileVersion": "2.13.0.0"
+          }
+        }
+      },
+      "Iced/1.21.0": {
+        "runtime": {
+          "lib/netstandard2.1/Iced.dll": {
+            "assemblyVersion": "1.21.0.0",
+            "fileVersion": "1.21.0.0"
+          }
+        }
+      },
+      "Il2CppInterop.Common/1.5.1-ci.829": {
+        "dependencies": {
+          "Iced": "1.21.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Il2CppInterop.Common.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      },
+      "Il2CppInterop.Generator/1.5.1-ci.829": {
+        "dependencies": {
+          "AsmResolver.DotNet": "6.0.0-beta.5",
+          "Il2CppInterop.Common": "1.5.1-ci.829",
+          "MonoMod.Backports": "1.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Il2CppInterop.Generator.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      },
+      "Il2CppInterop.HarmonySupport/1.5.1-ci.829": {
+        "dependencies": {
+          "HarmonyX": "2.13.0",
+          "Il2CppInterop.Runtime": "1.5.1-ci.829"
+        },
+        "runtime": {
+          "lib/net6.0/Il2CppInterop.HarmonySupport.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      },
+      "Il2CppInterop.Runtime/1.5.1-ci.829": {
+        "dependencies": {
+          "Iced": "1.21.0",
+          "Il2CppInterop.Common": "1.5.1-ci.829"
+        },
+        "runtime": {
+          "lib/net6.0/Il2CppInterop.Runtime.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12309"
+          }
+        }
+      },
+      "Mono.Cecil/0.11.5": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.5.0",
+            "fileVersion": "0.11.5.0"
+          }
+        }
+      },
+      "MonoMod.Backports/1.1.2": {
+        "dependencies": {
+          "MonoMod.ILHelpers": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/MonoMod.Backports.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "MonoMod.Core/1.1.2": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.5",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0",
+          "MonoMod.Utils": "25.0.6"
+        },
+        "runtime": {
+          "lib/net6.0/MonoMod.Core.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          },
+          "lib/net6.0/MonoMod.Iced.dll": {
+            "assemblyVersion": "1.17.0.0",
+            "fileVersion": "1.17.0.0"
+          }
+        }
+      },
+      "MonoMod.ILHelpers/1.1.0": {
+        "runtime": {
+          "lib/net6.0/MonoMod.ILHelpers.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MonoMod.RuntimeDetour/25.1.2": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.5",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.Core": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0",
+          "MonoMod.Utils": "25.0.6"
+        },
+        "runtime": {
+          "lib/net6.0/MonoMod.RuntimeDetour.dll": {
+            "assemblyVersion": "25.1.2.0",
+            "fileVersion": "25.1.2.0"
+          }
+        }
+      },
+      "MonoMod.Utils/25.0.6": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.5",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/MonoMod.Utils.dll": {
+            "assemblyVersion": "25.0.6.0",
+            "fileVersion": "25.0.6.0"
+          }
+        }
+      },
+      "Samboy063.Cpp2IL.Core/2022.1.0-pre-release.13": {
+        "dependencies": {
+          "AsmResolver.DotNet": "6.0.0-beta.5",
+          "AssetRipper.CIL": "1.0.0",
+          "AssetRipper.Gee.External.Capstone": "2.3.1",
+          "Disarm": "2022.1.0-master.26",
+          "Iced": "1.21.0",
+          "Samboy063.LibCpp2IL": "2022.1.0-pre-release.13",
+          "StableNameDotNet": "0.1.0-pre-release.13"
+        },
+        "runtime": {
+          "lib/net6.0/Cpp2IL.Core.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
+      "Samboy063.LibCpp2IL/2022.1.0-pre-release.13": {
+        "dependencies": {
+          "AssetRipper.Primitives": "3.1.3",
+          "Samboy063.WasmDisassembler": "2022.1.0-pre-release.13"
+        },
+        "runtime": {
+          "lib/net6.0/LibCpp2IL.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
+      "Samboy063.WasmDisassembler/2022.1.0-pre-release.13": {
+        "runtime": {
+          "lib/net6.0/WasmDisassembler.dll": {
+            "assemblyVersion": "2022.1.0.0",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
+      "SemanticVersioning/2.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/SemanticVersioning.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "StableNameDotNet/0.1.0-pre-release.13": {
+        "runtime": {
+          "lib/netstandard2.0/StableNameDotNet.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomPortraitFramework/0.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AsmResolver/6.0.0-beta.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G8qFOoSs2DQc4Ddvcu0qoqEWLy1ETuxzzevDMRxg6QTG//hIWaxEaxHMorWVYuPxYU//g8lM8XzdvMWF1wQOrg==",
+      "path": "asmresolver/6.0.0-beta.5",
+      "hashPath": "asmresolver.6.0.0-beta.5.nupkg.sha512"
+    },
+    "AsmResolver.DotNet/6.0.0-beta.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WlbVPV2gTacuJFOPEEsPL+4EHoaTKqjfFCvudrt+Nx1J+Frt781DelvyNMqu8UA/oXF07HgZbaLH//sOXJNI3w==",
+      "path": "asmresolver.dotnet/6.0.0-beta.5",
+      "hashPath": "asmresolver.dotnet.6.0.0-beta.5.nupkg.sha512"
+    },
+    "AsmResolver.PE/6.0.0-beta.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gIv4Dxl/9x3+B1rEJW1Z3+N26B+mpk80+0LisYP+FtER/K4+TpsYijak5AJjj0IF17+elpzWAT/+YFVXAHD4Pw==",
+      "path": "asmresolver.pe/6.0.0-beta.5",
+      "hashPath": "asmresolver.pe.6.0.0-beta.5.nupkg.sha512"
+    },
+    "AsmResolver.PE.File/6.0.0-beta.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+j1vOCMVk7Mst59yAd9BTNymTGrTNyuciSyFWumY/6pTL+ysOVMMtbbzKs53HdgxQgjKnKZMqYfob9X6Bk9Ndg==",
+      "path": "asmresolver.pe.file/6.0.0-beta.5",
+      "hashPath": "asmresolver.pe.file.6.0.0-beta.5.nupkg.sha512"
+    },
+    "AssetRipper.CIL/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l639dKLllpJ5TcX+Z1OVYz+hsKVZyMpEm59Dl4Qd6YrCHPVj9yPtF/UNjn9nFxoDm7suEFP/0vlZD/bSeXjz6Q==",
+      "path": "assetripper.cil/1.0.0",
+      "hashPath": "assetripper.cil.1.0.0.nupkg.sha512"
+    },
+    "AssetRipper.Gee.External.Capstone/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WVujToXc2sB5nVEY4iMpjhsQaqGw5RjG3c0Hl1qT/pZMbfwtafpaOwAa0G/GS5gd2jcuJwrsG880Pkyjkhi3vQ==",
+      "path": "assetripper.gee.external.capstone/2.3.1",
+      "hashPath": "assetripper.gee.external.capstone.2.3.1.nupkg.sha512"
+    },
+    "AssetRipper.Primitives/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-djZbN/+EXmI+Oia9Pm0LyjZVCPLf60TPSL5rGb7mBEYM5F4CN3nPFXvl2yA5LanPZoHS1Yq7PghGUmkP7Pv9RQ==",
+      "path": "assetripper.primitives/3.1.3",
+      "hashPath": "assetripper.primitives.3.1.3.nupkg.sha512"
+    },
+    "BepInEx.Core/6.0.0-be.755": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8u8f4vUF6529mOzuwf6n2wZIZV08YuFj8xHefWpwY/KZOFdJ4bJ3hx8wYbhAfOC5Fax6PO52ZVS0gDlt8Igutg==",
+      "path": "bepinex.core/6.0.0-be.755",
+      "hashPath": "bepinex.core.6.0.0-be.755.nupkg.sha512"
+    },
+    "BepInEx.Unity.Common/6.0.0-be.755": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KbPw6hNxD4ymVARSlTjeEjaOUBLzVoZAIYEen0A1AzmtADRUqwccy5ohg52G3oRqf+epzyBLFaVW9KOnUyPZYg==",
+      "path": "bepinex.unity.common/6.0.0-be.755",
+      "hashPath": "bepinex.unity.common.6.0.0-be.755.nupkg.sha512"
+    },
+    "BepInEx.Unity.IL2CPP/6.0.0-be.755": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B6bnknQPLXm64gIL8+nj5R0O4JpnX3vj2cxqEnULMjqZJR1TqxSZ7Pj6kFXEXiJIF1kOZGWofg4kXHW7GE8skQ==",
+      "path": "bepinex.unity.il2cpp/6.0.0-be.755",
+      "hashPath": "bepinex.unity.il2cpp.6.0.0-be.755.nupkg.sha512"
+    },
+    "Disarm/2022.1.0-master.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YnZEbRGr0nG+N3G8WbRQ4Lkg8dTD3oso9iJlCVBmyhEyhLyqs+drBs1kWQbQqFPnb9mi/RJ++R9bPb+L3HF03Q==",
+      "path": "disarm/2022.1.0-master.26",
+      "hashPath": "disarm.2022.1.0-master.26.nupkg.sha512"
+    },
+    "HarmonyX/2.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Ztam2iiaQ8CedoVO41F2YY2safV7+ce5thI5fOxgkrrYfZal11uDb7Mubwa6/EYo2dOhaT0kG64aLlqaUYsHg==",
+      "path": "harmonyx/2.13.0",
+      "hashPath": "harmonyx.2.13.0.nupkg.sha512"
+    },
+    "Iced/1.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dv5+81Q1TBQvVMSOOOmRcjJmvWcX3BZPZsIq31+RLc5cNft0IHAyNlkdb7ZarOWG913PyBoFDsDXoCIlKmLclg==",
+      "path": "iced/1.21.0",
+      "hashPath": "iced.1.21.0.nupkg.sha512"
+    },
+    "Il2CppInterop.Common/1.5.1-ci.829": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tATowAc0TeJUMFi20aP1+Nh2HmHPU1XnWX3HRTx1C07uo/gcv6j32thgr08A5qLnE2e7LZ+g+kOpW9ACxEdKNg==",
+      "path": "il2cppinterop.common/1.5.1-ci.829",
+      "hashPath": "il2cppinterop.common.1.5.1-ci.829.nupkg.sha512"
+    },
+    "Il2CppInterop.Generator/1.5.1-ci.829": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ya1Aatz8IS2FIL5tAwlBhSdB6iGhMDZA3rCnK53ZwpS06sM79Wkt3GlTi+1B9jtUGcTEVTdi3QK/RwpubF9KEw==",
+      "path": "il2cppinterop.generator/1.5.1-ci.829",
+      "hashPath": "il2cppinterop.generator.1.5.1-ci.829.nupkg.sha512"
+    },
+    "Il2CppInterop.HarmonySupport/1.5.1-ci.829": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TZhJ3WnY3N11xywc9VrWu8MsUpeGZjebQ7Kv1nE2BKTXBikA9okSYlkxK0Bz+PSyYB9vWtsAY6F/XJhYwEsvWA==",
+      "path": "il2cppinterop.harmonysupport/1.5.1-ci.829",
+      "hashPath": "il2cppinterop.harmonysupport.1.5.1-ci.829.nupkg.sha512"
+    },
+    "Il2CppInterop.Runtime/1.5.1-ci.829": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SHw30EU1u5JpdXqEtLYUKf6oyINvoPDwMEjkctpTBF5Zq+V6dANrhqNDEjljpXOiFvF8ZFx0UN4wNC/bIut7Yg==",
+      "path": "il2cppinterop.runtime/1.5.1-ci.829",
+      "hashPath": "il2cppinterop.runtime.1.5.1-ci.829.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+    },
+    "Mono.Cecil/0.11.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxfX+0JGTZ8YQeu1MYjbBiK2CYTSzDyEeIixt+yqKKTn7FW8rv7JMY70qevup4ZJfD7Kk/VG/jDzQQTpfch87g==",
+      "path": "mono.cecil/0.11.5",
+      "hashPath": "mono.cecil.0.11.5.nupkg.sha512"
+    },
+    "MonoMod.Backports/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-baYlNy8n8kmaNhNvqmZ/dIPOeO1r9//dG1i2WbunMWtWZ2EKtIgmXaS+ZzphzTsikkGnoD4Jwr5g0TVdpDjgpw==",
+      "path": "monomod.backports/1.1.2",
+      "hashPath": "monomod.backports.1.1.2.nupkg.sha512"
+    },
+    "MonoMod.Core/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Yvjx2W0QFnPNyBjCKnrhYimskBE2MUKEMJz0t+2fJO67Jt4Lmams6BdZPTVudQykmEWTh5c2fwEfAMxKQtC4Q==",
+      "path": "monomod.core/1.1.2",
+      "hashPath": "monomod.core.1.1.2.nupkg.sha512"
+    },
+    "MonoMod.ILHelpers/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L2FWjhTrv7tcIxshfZ+M3OcaNr4cNw0IwiVZEgwqRnZ5QAN3+RrNJ8ZwCzwXUWyPDqooJxMcjjg8PsSYUiNBjQ==",
+      "path": "monomod.ilhelpers/1.1.0",
+      "hashPath": "monomod.ilhelpers.1.1.0.nupkg.sha512"
+    },
+    "MonoMod.RuntimeDetour/25.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eNf/V6FqS5ErkvdA+vyVM5d7SFeKCkltn5XhT2GrjJ2xec6BG3E7lk/52qVIqDSsMrU+M6dTM8W+fl4IxKQWHw==",
+      "path": "monomod.runtimedetour/25.1.2",
+      "hashPath": "monomod.runtimedetour.25.1.2.nupkg.sha512"
+    },
+    "MonoMod.Utils/25.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FAGqXHT4ENtg3UTA5PKBgLYcRP8w+u4zMUN2M73yfb0aYLIpCTVOcTfO1iTM2Jse0ukBxjd+ovO5KnCYt+Z0ag==",
+      "path": "monomod.utils/25.0.6",
+      "hashPath": "monomod.utils.25.0.6.nupkg.sha512"
+    },
+    "Samboy063.Cpp2IL.Core/2022.1.0-pre-release.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d3/E3e2rCDlnRiFdNyLxE94XKabsCdMEzVblzsraodYxQhjCXacn75KHkp3Jwj+6Y8A3usehMInDWep4L/+TQQ==",
+      "path": "samboy063.cpp2il.core/2022.1.0-pre-release.13",
+      "hashPath": "samboy063.cpp2il.core.2022.1.0-pre-release.13.nupkg.sha512"
+    },
+    "Samboy063.LibCpp2IL/2022.1.0-pre-release.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fwkVLAXqD+7XfIXJEDh2OkJqe6YMkNmOP05oudEnuq3ITEuVUSb0K8ffa22vx+n/NDIyNP+s1lLRFcmHVP57oQ==",
+      "path": "samboy063.libcpp2il/2022.1.0-pre-release.13",
+      "hashPath": "samboy063.libcpp2il.2022.1.0-pre-release.13.nupkg.sha512"
+    },
+    "Samboy063.WasmDisassembler/2022.1.0-pre-release.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dI4PDG+AFctYzaD0pqojK7SGiiPi6xgIRXp07hHnXumW+DYbS2nVQ8nTFSHiP6xE7UhW6I+PpbC5jh/2nksW+Q==",
+      "path": "samboy063.wasmdisassembler/2022.1.0-pre-release.13",
+      "hashPath": "samboy063.wasmdisassembler.2022.1.0-pre-release.13.nupkg.sha512"
+    },
+    "SemanticVersioning/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4EQgYdNZ92SyaO7YFk6olVnebF5V+jrHyMUjvPq89tLeMo8NSfgDF+6Zwq/lgh9j/0yfQp9Lkm0ZA0rUATCZFA==",
+      "path": "semanticversioning/2.0.2",
+      "hashPath": "semanticversioning.2.0.2.nupkg.sha512"
+    },
+    "StableNameDotNet/0.1.0-pre-release.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ovX1WcVUO6R1pHzaW1v1SC9coSWSYh5JjjZ/vvr7jsb7+hWzMVpsV+uyWLMie9olE2FW1k4RLaXf5GmvlVwMg==",
+      "path": "stablenamedotnet/0.1.0-pre-release.13",
+      "hashPath": "stablenamedotnet.0.1.0-pre-release.13.nupkg.sha512"
+    }
+  }
+}

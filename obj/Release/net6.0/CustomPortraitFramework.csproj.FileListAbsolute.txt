@@ -1,0 +1,25 @@
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\CustomPortraitFramework.csproj.AssemblyReference.cache
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\CustomPortraitFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\CustomPortraitFramework.AssemblyInfoInputs.cache
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\CustomPortraitFramework.AssemblyInfo.cs
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\CustomPortraitFramework.csproj.CoreCompileInputs.cache
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\bin\Release\net6.0\CustomPortraitFramework.deps.json
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\bin\Release\net6.0\CustomPortraitFramework.dll
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\bin\Release\net6.0\CustomPortraitFramework.pdb
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\CustomPortraitFramework.dll
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\refint\CustomPortraitFramework.dll
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\CustomPortraitFramework.pdb
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Source Code\obj\Release\net6.0\ref\CustomPortraitFramework.dll
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\bin\Release\net6.0\CustomPortraitFramework.deps.json
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\bin\Release\net6.0\CustomPortraitFramework.dll
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\bin\Release\net6.0\CustomPortraitFramework.pdb
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.csproj.AssemblyReference.cache
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.AssemblyInfoInputs.cache
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.AssemblyInfo.cs
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.csproj.CoreCompileInputs.cache
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.sourcelink.json
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.dll
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\refint\CustomPortraitFramework.dll
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\CustomPortraitFramework.pdb
+C:\Users\dakot\Documents\Ova Magica Mod\Custom Portrait Framework\Custom Portrait Framework Sourcecode\obj\Release\net6.0\ref\CustomPortraitFramework.dll
